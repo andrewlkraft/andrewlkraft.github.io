@@ -1,0 +1,16 @@
+body, html {
+	-webkit-font-smoothing: antialiased;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("../img/library-view.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	color:#ccc;
+}

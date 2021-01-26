@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- page info -->
-	<title>Andrew Kraft's Website</title>
+	<title>Andrew Kraft</title>
 	<meta name="description" content="A website to practice html and js and show off some of my projects">
 	<meta name="author" content="Andrew Kraft">
 
-	<!-- bootstrap css -->
+	<!-- Bootstrap CSS CDN -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-	<!-- styles -->
+	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target="navbar" data-offset="50">
+	<nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand page-scroll mb-2" href=#page-top>Andrew</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapsible" aria-controls="navbarCollapsible" aria-expanded="false" aria-label="toggle-navigation">
+				<span class="navbar-toggler-icon"></span>	
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapsible">
+				<div class="navbar-nav navbar-right mb-2">
+					<a class="nav-link" href="#about">About</a>
+					<a class="nav-link" href="#hobbies">Hobbies</a>
+					<a class="nav-link" href="#projects">Projects</a>
+					<a class="nav-link" href="#contact">Contact</a>
+				</div>
+			</div>
+		</div> <!-- end container -->
+	</nav> <!-- end navbar -->
 
-	<h1 class="title">Hello World!</h1>
+	<div class="container" id="welcome" style="display:block; padding-top:50px;">
+		<div class="text-center">
+			<div class="row">
+				<h1>Welcome!</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="about">
+		<h1>TODO: About</h1>
+	</div>
+
+	<div id="hobbies">
+		<h1>TODO: Hobbies</h1>
+	</div>
+
+	<div id="projects">
+		<h1>TODO: Projects</h1>
+	</div>
+
+	<div id="contact">
+		<h1>TODO: Contact</h1>
+	</div>
 
 	<!-- bootstrap scripts -->	
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
