@@ -13,5 +13,18 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background: linear-gradient(#fff,#fff)
 	color:#ccc;
+}
+
+h1 {
+	color:#ccc;
+	font-size: 72pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+	padding: 5rem 6rem;
+	height: 100%;
+	display: block;
 }
