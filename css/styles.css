@@ -1,7 +1,8 @@
 body, html {
-	-webkit-font-smoothing: antialiased;
 	width: 100% !important;
 	height: 100% !important;
+	margin: 0 0;
+	padding: 0 0;
 }
 
 html {
@@ -9,22 +10,34 @@ html {
 }
 
 body {
-	background-image: url("../img/library-view.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background: linear-gradient(#fff,#fff)
-	color:#ccc;
-}
-
-h1 {
-	color:#ccc;
-	font-size: 72pt;
+	color: #ccc;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#header {
-	padding: 5rem 6rem;
-	height: 100%;
+.navbar {
 	display: block;
+	position: fixed;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+#home {
+	height: 100%;
+	background: url("../img/library-view.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#about {
+	background: linear-gradient(to bottom, #00014d5e, #01004e00);
+	display: block;
+	height: 100%;
+}
+
+#hobbies {
+	background: ;
+	display: block;
+	height: 100%;
 }
