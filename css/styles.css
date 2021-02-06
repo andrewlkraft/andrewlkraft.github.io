@@ -26,18 +26,23 @@ header {
 
 ul {
 	list-style: none;
+	padding-right: 5rem;
+	width: 100%;
 }
 
 li {
-	display: inline;
+	float: left;
+	padding-right: 5px;
 }
 
 li a {
 	border-color: #fff;
 	border-width: 2px;
 	border-style: solid;
+	border-radius: 5%;
 	color: #fff;
 	text-decoration: none;
+	padding: 5px;
 }
 
 li a:hover {
